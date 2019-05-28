@@ -1,0 +1,26 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.orientsec.demo";
+option java_outer_classname = "GreeterProto";
+package com.orientsec.demo;
+
+
+service Greeter {
+    rpc sayHello (GreeterRequest) returns (GreeterReply) {}
+}
+
+message GreeterRequest {
+    int32  no   = 1;
+    string name = 2;
+    bool sex = 3;
+    double salary = 4;
+    string desc = 5;
+}
+
+message GreeterReply {
+    bool success = 1;
+    string message = 2;
+    int32  no   = 3;
+    double salary = 4;
+    int64 total = 5;
+}

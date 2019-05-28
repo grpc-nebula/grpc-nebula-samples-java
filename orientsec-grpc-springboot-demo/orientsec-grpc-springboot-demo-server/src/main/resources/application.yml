@@ -1,0 +1,16 @@
+spring:
+  application: grpc-springboot-demo
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 500Mb
+      max-request-size: 500Mb
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}) [%thread] %clr(%-5level) %logger{50}[%L] -%msg%n"
+    file: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}) [%thread] %clr(%-5level) %logger{50}[%L] -%msg%n"
+  file: "/tmp/logs/grpc-springboot-demo/server.log"
+grpc:
+    port: 9899

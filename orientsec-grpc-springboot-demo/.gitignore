@@ -1,0 +1,38 @@
+# IntelliJ IDEA
+/.idea/
+*/.idea/
+*.iml
+*/*.iml
+
+# Eclipse
+/.settings/
+*/.settings/
+*.classpath
+*.project
+
+# Maven
+/target/
+*/target/
+
+# Gradle
+.gradle/
+gradle/
+build/
+*/build/
+gradlew
+gradlew.bat
+
+# Mac OS
+.DS_Store
+*/.DS_Store
+
+# log file
+/logs/
+*/logs/
+*.log
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+spring:
+  application: grpc-springboot-demo
+  servlet:
+    open-in-view: true
+    properties:
+      hibernate:
+        format_sql: false
+      jadira:
+        usertype:
+          autoRegisterUserTypes: true
+          javaZone: Asia/Shanghai
+          databaseZone: Asia/Shanghai
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}) [%thread] %clr(%-5level) %logger{50}[%L] -%msg%n"
+    file: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}) [%thread] %clr(%-5level) %logger{50}[%L] -%msg%n"
+  file: "/tmp/logs/grpc-springboot-demo/client.log"
