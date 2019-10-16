@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <orientsec.grpc.version>1.1.0</orientsec.grpc.version>
+        <orientsec.grpc.version>1.2.2</orientsec.grpc.version>
         <protoc.version>3.5.1-1</protoc.version>
         <protoc-gen-grpc-java.version>1.17.1</protoc-gen-grpc-java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
